@@ -1,0 +1,17 @@
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub  ==1
+Bus 001 Device 005: ID 8087:0aaa Intel Corp. ==0
+Bus 001 Device 004: ID 13d3:5666 IMC Networks USB2.0 HD UVC WebCam ==2
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub  ==none
+
+lsusb -d 1d6b:0002-v | grep iSerial
+
+
+
+
+OTKISSSSSSSSSS
+
+deb http://security.ubuntu.com/ubuntu bionic-security main 
+linux-tools-virtual_5.15.0.25.27_amd64.deb
+https://github.com/dorssel/usbipd-win/wiki/WSL-support
+https://learn.microsoft.com/ru-ru/windows/wsl/connect-usb
+https://gist.github.com/alyleite/ca8b10581dbecd722d9dcc35b50d9b2b + wsl2
